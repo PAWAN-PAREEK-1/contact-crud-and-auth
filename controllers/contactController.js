@@ -1,6 +1,6 @@
 // @desc Get all contacts
 //@route GET /api/contacts
-//@access public
+//@access  public
 
 const getContacts = (req, res) => {
     res.status(200).json({ message: "get all contacts" });
